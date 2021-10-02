@@ -1,0 +1,29 @@
+.container{
+  //overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  //background: #E5E5E5;
+
+}
+
+.container__content{
+  width: 100%;
+  max-width: 1920px;
+  padding: 20px clamp(15px, 5%, 50px);
+}
+
+
+.container_header{
+  z-index: 10;
+}
+
+
+.container__content_greenFloor{
+  border-bottom: #66BC2F solid 20px;
+}
+
+
+.container__content_relative{
+  position: relative;
+}

@@ -1,0 +1,65 @@
+.topic{
+  height: calc(100vh - 125px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topic__content{
+  width: 100%;
+  max-width: 980px;
+  height: 100%;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.topic__list{
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+.topic__list::-webkit-scrollbar {
+  width: 12px;
+}
+
+.topic__list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.topic__list::-webkit-scrollbar-thumb {
+  background-color: #FF8188;    /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
+  border: 3px solid #FF8188;
+}
+
+.topic__elContainer{
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.topic__questionBlock{
+  width: 100%;
+  height: 100px;
+}
+
+.topic__questionButton{
+  height: 80px;
+  width: 300px;
+}
+
+
+@import "__el/__el";
+@import "__dragon/__dragon";
